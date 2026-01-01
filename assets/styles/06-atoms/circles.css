@@ -1,0 +1,31 @@
+.a-score-circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--gap-result);
+    min-width: 160px;
+    min-height: 160px;
+    border-radius: var(--radius-circle);
+    background: linear-gradient(var(--gradient-circle-violet-blue), var(--gradient-circle-persian-blue));
+    text-align: center;
+}
+
+.a-score-circle__number {
+    font-size: var(--fs-result);
+    font-weight: var(--fw-extra-bold);
+    color: var(--color-neutral-white);
+}
+
+.a-score-circle__total {
+    font-size: var(--fs-body);
+    font-weight: var(--fw-bold);
+    color: var(--color-neutral-white);
+    opacity: 0.5;
+}
+
+@media (min-width: 768px) {
+    .a-score-circle {
+        /*width: 200px;*/
+        /*height: 200px;*/
+    }
+}

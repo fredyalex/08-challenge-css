@@ -1,0 +1,18 @@
+/* ITCSS - Settings: Radius / Borders / Shadows tokens */
+:root {
+    /* Border Radius */
+    --radius-100: 0.5rem;
+    --radius-200: 1rem;
+    --radius-300: 1.5rem;
+    --radius-400: 2rem;
+    --radius-full: 100px;
+    --radius-circle: 50%;
+
+    /* Shadows */
+    --shadow-card: 0 30px 60px hsla(224, 82%, 58%, 0.15);
+
+    /* Semantic Aliases */
+    --radius-card: var(--radius-400);
+    --radius-button: var(--radius-full);
+    --radius-summary-item: var(--radius-200);
+}

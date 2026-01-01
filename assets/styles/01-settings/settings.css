@@ -1,1 +1,6 @@
 /* Settings */
+@import "./colors.css";
+@import "./fonts.css";
+@import "./shapes.css";
+@import "./spacing.css";
+@import "./typography.css";

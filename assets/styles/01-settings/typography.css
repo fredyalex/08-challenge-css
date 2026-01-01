@@ -1,0 +1,35 @@
+/* ITCSS: Settings → Typography tokens
+   Definición de variables para familias, tamaños, pesos, line-height y letter-spacing
+*/
+
+:root {
+    /* Font Families */
+    --ff-primary: 'Hanken Grotesk';
+    /* Font Sizes */
+    --fs-root: 18px;
+    --fs-heading-3xl: 2.986rem; /* ~53.75px */
+    --fs-heading-2xl: 2.488rem; /* ~44.79px */
+    --fs-heading-xl: 2.074rem; /* ~37.32px */
+    --fs-heading-l: 1.728rem; /* ~31.1px */
+    --fs-heading-m: 1.44rem; /* ~25.92px */
+    --fs-heading-s: 1.2rem; /* ~21.6px */
+    --fs-body: 1rem; /* 18px */
+    --fs-small: 0.833rem; /* ~15px */
+
+    /* Font Weights */
+    --fw-medium: 500;
+    --fw-bold: 700;
+    --fw-extra-bold: 800;
+
+    /* Line Heights */
+    --lh-base: 1.2;
+    --lh-relaxed: 1.4;
+
+    /* Letter Spacing */
+    --ls-base: 0.05em;
+
+    /* Semantic Aliases */
+    --ff-body: var(--ff-primary);
+    --fw-body: var(--fw-medium);
+    --fs-result: var(--fs-heading-3xl);
+}

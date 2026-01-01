@@ -1,1 +1,21 @@
 /* Elements */
+
+html{
+    font-size: var(--fs-root);
+}
+
+html, body, h1, h2, p, img , div, span{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--ff-body), sans-serif;
+    font-size: var(--fs-body);
+    background-color: var(--color-bg-body);
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+}

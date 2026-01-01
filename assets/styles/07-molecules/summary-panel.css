@@ -1,0 +1,19 @@
+.m-summary-panel {
+    --title-color: var(--color-neutral-dark-gray-blue);
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-summary);
+    padding: var(--padding-card-mobile);
+}
+
+.m-summary-items {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-500);
+}
+
+@media (min-width: 768px) {
+    .m-summary-panel {
+        padding: var(--padding-card);
+    }
+}

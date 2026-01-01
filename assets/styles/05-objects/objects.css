@@ -1,1 +1,13 @@
 /* Objects */
+.o-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .o-container {
+        justify-content: center;
+        padding: var(--space-400);
+    }
+}

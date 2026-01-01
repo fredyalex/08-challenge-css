@@ -1,0 +1,19 @@
+.og-results-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+    max-width: min(736px, 100%);
+    background-color: var(--color-bg-card);
+    overflow: hidden;
+    gap: var(--space-200);
+}
+
+@media (min-width: 768px) {
+    .og-results-card {
+        grid-template-columns: 1fr 1fr;
+        min-height: auto;
+        margin: auto;
+        border-radius: var(--radius-card);
+        box-shadow: var(--shadow-card);
+    }
+}
